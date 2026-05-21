@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPP/8. 类和对象(下)--初始化列表,友元,匿名对象.md",
+                "file": "CPP/9. C++内存管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. 类和对象(下)--初始化列表,友元,匿名对象"
+              "title": "9. C++内存管理"
             }
           }
         ]
@@ -185,8 +185,25 @@
   },
   "active": "ba49770deeac1ed1",
   "lastOpenFiles": [
-    "CPP/7. 类和对象(中) --拷贝构造,运算符重载.md",
+    "network/网络IO再理解.md",
+    "CPP/9. C++内存管理.md",
+    "network/picture/TCP同时打开流程.png",
+    "network/picture/358b502a-318d-4258-be4e-07205d04112c.png",
+    "network/picture/connect_p2p.png",
+    "network/picture/87842e0b-875d-45cd-955d-ebc5f7259c6a.png",
+    "network/picture/connect_p2p",
+    "network/picture/while1的connect",
+    "network/picture/为什么nginx要用et模式.png",
+    "network/picture/44576806-0311-4f3a-a41d-ffa183bef88e.png",
+    "network/picture/为什么redis要用lt模式.png",
+    "network/picture/9800b343-f798-44f8-9aae-4e543264d281.png",
+    "network/picture/为什么select在这种场景比epoll快.png",
+    "network/picture/f35741dc-06c9-4a00-a2bf-a78e1190697c.png",
+    "network/picture/为什么在这种场景比epoll快.md",
+    "network/picture/为什么在这种场景比epoll快",
+    "network/picture/select和epoll的选择.drawio",
     "CPP/8. 类和对象(下)--初始化列表,友元,匿名对象.md",
+    "CPP/7. 类和对象(中) --拷贝构造,运算符重载.md",
     "CPP/6. 类和对象(中) --构造,析构函数.md",
     "CPP/5. 类和对象(上).md",
     "CPP/4. 内联函数和auto关键字.md",
@@ -207,9 +224,6 @@
     "C/6. 数组详解.md",
     "C/5. 函数详解.md",
     "C/4. 分支和循环语句.md",
-    "C/3. 了解C语言-下.md",
-    "3. 了解C语言-下.md",
-    "C/2. 了解C语言-上.md",
-    "C/1. 初识C语言.md"
+    "C/3. 了解C语言-下.md"
   ]
 }

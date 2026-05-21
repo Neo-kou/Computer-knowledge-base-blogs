@@ -1,0 +1,70 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="k9j1xLet6LOf8zF9dl28">
+    <mxGraphModel dx="678" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GRxN7YlPEfQj82voaE2m-4" edge="1" parent="1" source="GRxN7YlPEfQj82voaE2m-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GRxN7YlPEfQj82voaE2m-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="nginx" vertex="1">
+          <mxGeometry height="60" width="200" x="230" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="分布式微服务集群" vertex="1">
+          <mxGeometry height="400" width="460" x="100" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-3" edge="1" parent="1" source="GRxN7YlPEfQj82voaE2m-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="GRxN7YlPEfQj82voaE2m-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="330" as="sourcePoint" />
+            <mxPoint x="380" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-5" edge="1" parent="1" source="GRxN7YlPEfQj82voaE2m-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="GRxN7YlPEfQj82voaE2m-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="330" as="sourcePoint" />
+            <mxPoint x="380" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-7" edge="1" parent="1" source="GRxN7YlPEfQj82voaE2m-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GRxN7YlPEfQj82voaE2m-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="client" vertex="1">
+          <mxGeometry height="60" width="120" x="270" as="geometry" />
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这里用epoll" vertex="1">
+          <mxGeometry height="30" width="100" x="390" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这里用epoll的ET模式" vertex="1">
+          <mxGeometry height="30" width="180" x="324" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="微服务A" vertex="1">
+          <mxGeometry height="60" width="90" x="170" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="微服务B" vertex="1">
+          <mxGeometry height="60" width="90" x="369" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="微服务C" vertex="1">
+          <mxGeometry height="60" width="90" x="170" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="微服务A" vertex="1">
+          <mxGeometry height="60" width="90" x="369" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-14" edge="1" parent="1" source="GRxN7YlPEfQj82voaE2m-12" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="GRxN7YlPEfQj82voaE2m-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="350" as="sourcePoint" />
+            <mxPoint x="320" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-15" edge="1" parent="1" source="GRxN7YlPEfQj82voaE2m-10" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GRxN7YlPEfQj82voaE2m-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="330" as="sourcePoint" />
+            <mxPoint x="380" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRxN7YlPEfQj82voaE2m-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="微服务间是少量连接并且连接大量处于活跃状态, 用select" vertex="1">
+          <mxGeometry height="30" width="170" x="230" y="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
