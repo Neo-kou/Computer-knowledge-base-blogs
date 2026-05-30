@@ -6,6 +6,7 @@
       {
         "id": "09228b566a52bdc5",
         "type": "tabs",
+        "dimension": 58.69289340101523,
         "children": [
           {
             "id": "ba49770deeac1ed1",
@@ -13,13 +14,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPP/11. STL-string.md",
+                "file": "CPP/31. C++类型转换以及IO流.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11. STL-string"
-            }
+              "title": "31. C++类型转换以及IO流"
+            },
+            "group": "6e89d216e3e16f6e"
+          }
+        ]
+      },
+      {
+        "id": "78386eb4f517cfad",
+        "type": "tabs",
+        "dimension": 41.307106598984774,
+        "children": [
+          {
+            "id": "d5b3b3b5b80e9839",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CPP/31. C++类型转换以及IO流.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "31. C++类型转换以及IO流 的大纲"
+            },
+            "group": "6e89d216e3e16f6e"
           }
         ]
       }
@@ -185,45 +210,45 @@
   },
   "active": "ba49770deeac1ed1",
   "lastOpenFiles": [
+    "CPP/30. 单例模式&特殊类的设计.md",
+    "CPP/31. C++类型转换以及IO流.md",
+    "CPP/29. C++异常处理.md",
+    "CPP/28. C++11-智能指针-RAII思想&循环引用问题.md",
+    "CPP/27. C++11-lambda表达式&function包装器.md",
+    "CPP/26. C++11-右值引用&列表初始化.md",
+    "CPP/25. 位图&布隆过滤器.md",
+    "CPP/24. 哈希表&哈希桶.md",
+    "CPP/23. 红黑树深度剖析.md",
+    "CPP/22. AVL树深度剖析&模拟实现.md",
+    "CPP/21. map和set--KV模型和pair结构.md",
+    "operating system/协程.md",
+    "operating system/picture/8aebe2c8-c21b-48d7-9a6d-c602c45cec36.png",
+    "operating system/picture/b6ea573f-0f25-47cd-a141-95b38900fcc7.png",
+    "operating system/picture/server side.png",
+    "operating system/picture/e6ca2bfc-008f-4852-8a0f-d770afd7de72.png",
+    "CPP/17. 仿函数&模板进阶.md",
+    "CPP/18. 继承.md",
+    "CPP/19. 多态.md",
+    "CPP/20. 二叉搜索树.md",
+    "CPP/11. STL-string.md",
     "CPP/5. 类和对象(上).md",
     "STL标准库.md",
-    "CPP/11. STL-string.md",
     "CPP/16. STL-栈和队列深度剖析&优先级队列&适配器原理.md",
     "CPP/15. STL-list模拟实现&list和vector的对比.md",
     "CPP/14. STL-list.md",
     "CPP/13. STL-vector迭代器失效&深浅拷贝问题剖析.md",
     "CPP/12. STL-vector.md",
     "CPP/10. 模板.md",
-    "operating system/协程.md",
     "operating system/picture/协程切换和调度.png",
     "operating system/picture/7d9f292b-1c45-4b5a-b0af-1421dc82c48b.png",
     "CPP/1. 学习前言以及命名空间.md",
     "operating system/picture/sync_and_async.png",
     "operating system/picture/16d1aa89-1126-4392-aec5-23fe57ce961f.png",
-    "CPP/9. C++内存管理.md",
-    "network/网络IO再理解.md",
     "network/picture/TCP同时打开流程.png",
     "network/picture/358b502a-318d-4258-be4e-07205d04112c.png",
-    "network/picture/connect_p2p.png",
-    "network/picture/87842e0b-875d-45cd-955d-ebc5f7259c6a.png",
     "network/picture/connect_p2p",
     "network/picture/while1的connect",
-    "network/picture/为什么nginx要用et模式.png",
-    "network/picture/44576806-0311-4f3a-a41d-ffa183bef88e.png",
-    "network/picture/为什么在这种场景比epoll快.md",
     "network/picture/为什么在这种场景比epoll快",
-    "network/picture/select和epoll的选择.drawio",
-    "CPP/8. 类和对象(下)--初始化列表,友元,匿名对象.md",
-    "CPP/7. 类和对象(中) --拷贝构造,运算符重载.md",
-    "CPP/6. 类和对象(中) --构造,析构函数.md",
-    "CPP/4. 内联函数和auto关键字.md",
-    "CPP/3. 引用详解(对比指针).md",
-    "CPP/2. 缺省参数以及函数重载.md",
-    "C/17. 常见内存错误以及柔性数组.md",
-    "C/16. 动态内存管理.md",
-    "C/15. 自定义类型--结构体,位段,联合.md",
-    "C/14. 指针进阶详解(下).md",
-    "C/13. 指针进阶详解(上).md",
-    "C/12. 内存操作函数讲解.md"
+    "network/picture/select和epoll的选择.drawio"
   ]
 }
